@@ -1,0 +1,3 @@
+| **RAW** | **SUB** |
+| --- | --- |
+| Seicher | Kirinashi |

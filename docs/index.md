@@ -1,18 +1,5 @@
-# Home
-## Welcome to MkDocs
+![](_resources/110588.jpg)
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+**Bem-vindo ao wiki onde contém um pouco de tudo e tudo de merda.**
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+**Wiki para centralizar tutoriais do Discord e conteúdo para pirataria de animes, filmes, séries, etc.**

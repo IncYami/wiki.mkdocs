@@ -13,6 +13,7 @@ theme:
     primary: indigo
   features:
     - navigation.tabs
+    - content.code.copy
 
 markdown_extensions:
   - admonition

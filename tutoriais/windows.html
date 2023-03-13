@@ -1,0 +1,2024 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Wiki">
+      
+      
+        <meta name="author" content="Sekkon">
+      
+      
+        <link rel="canonical" href="https://wiki.yami-s.com/tutoriais/windows.html">
+      
+      
+        <link rel="prev" href="index.html">
+      
+      
+        <link rel="next" href="../utilidades/index.html">
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.2">
+    
+    
+      
+        <title>Windows - Archiving Wiki (Beta)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.7bf56d0a.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.a0c5b2b5.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#windows" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../index.html" title="Archiving Wiki (Beta)" class="md-header__button md-logo" aria-label="Archiving Wiki (Beta)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Archiving Wiki (Beta)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Windows
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../index.html" class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../animes/index.html" class="md-tabs__link">
+        Animes
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../guias/index.html" class="md-tabs__link">
+        Guias
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../tempest/index.html" class="md-tabs__link">
+        Tempest
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="index.html" class="md-tabs__link md-tabs__link--active">
+        Tutoriais
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../utilidades/index.html" class="md-tabs__link">
+        Utilidades
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../index.html" title="Archiving Wiki (Beta)" class="md-nav__button md-logo" aria-label="Archiving Wiki (Beta)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Archiving Wiki (Beta)
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          Animes
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Animes
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../animes/index.html" class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          Guias
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Guias
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guias/index.html" class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guias/audios.html" class="md-nav__link">
+        Relação de Áudios Disponiveis nos Streamings
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          Tempest
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Tempest
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/index.html" class="md-nav__link">
+        Introdução
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+          Index
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          Index
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/86%20Eighty%20Six.html" class="md-nav__link">
+        86: Eighty Six
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Akame%20ga%20Kill.html" class="md-nav__link">
+        Akame ga Kill!
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Akudama%20Drive.html" class="md-nav__link">
+        Akudama Drive
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Arknights%20Reimei%20Zensou.html" class="md-nav__link">
+        Arknights: Reimei Zensou
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/B%20The%20Beginning.html" class="md-nav__link">
+        B: The Beginning
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Boku%20dake%20ga%20Inai%20Machi.html" class="md-nav__link">
+        Boku dake ga Inai Machi
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Bokutachi%20wa%20Benkyou%20ga%20Dekina.html" class="md-nav__link">
+        Bokutachi wa Benkyou ga Dekinai
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Charlotte%20Tsuyoimono-tachi.html" class="md-nav__link">
+        Charlotte: Tsuyoimono-tachi
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Charlotte.html" class="md-nav__link">
+        Charlotte
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Cross%20Ange%20Tenshi%20to%20Ryuu%20no%20Rondo.html" class="md-nav__link">
+        Cross Ange: Tenshi to Ryuu no Rondo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/DARLING%20in%20the%20FRANXX.html" class="md-nav__link">
+        DARLING in the FRANXX
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Dr.%20STONE.html" class="md-nav__link">
+        Dr. STONE
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Dungeon%20ni%20Deai%20wo%20Motomeru%20no%20wa%20Machigatteiru%20Darou%20ka.html" class="md-nav__link">
+        Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Elfen%20Lied.html" class="md-nav__link">
+        Elfen Lied
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Fantasy%20Bishoujo%20Juniku%20Ojisan%20to.html" class="md-nav__link">
+        Fantasy Bishoujo Juniku Oji-san to
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Fate%20Zero.html" class="md-nav__link">
+        Fate/Zero
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Fate%20stay%20night%20Heavens%20Feel%20I.%20presage%20flower.html" class="md-nav__link">
+        Fate/stay night [Heaven's Feel] I. presage flower
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Fate%20stay%20night%20Heavens%20Feel%20II.%20lost%20butterfly.html" class="md-nav__link">
+        Fate/stay night [Heaven's Feel] II. lost butterfly
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Fate%20stay%20night%20Heavens%20Feel%20III.%20spring%20song.html" class="md-nav__link">
+        Fate/stay night [Heaven's Feel] III. spring song
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/GUILTY%20CROWN.html" class="md-nav__link">
+        GUILTY CROWN
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Gakusen%20Toshi%20Asterisk.html" class="md-nav__link">
+        Gakusen Toshi Asterisk
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Gamers.html" class="md-nav__link">
+        Gamers!
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Go-toubun%20no%20Hanayome.html" class="md-nav__link">
+        Go-toubun no Hanayome
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Grancrest%20Senki.html" class="md-nav__link">
+        Grancrest Senki
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Haiyore%20Nyaruko-san.html" class="md-nav__link">
+        Haiyore Nyaruko san
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Happy%20Sugar%20Life.html" class="md-nav__link">
+        Happy Sugar Life
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Heion%20Sedai%20no%20Idaten-tachi.html" class="md-nav__link">
+        Heion Sedai no Idaten tachi
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Hige%20wo%20Soru.%20Soshite%20Joshikousei%20wo%20Hirou.html" class="md-nav__link">
+        Hige wo Soru. Soshite Joshikousei wo Hirou.
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Hundred.html" class="md-nav__link">
+        Hundred
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Isekai%20Maou%20to%20Shoukan%20Shoujo%20no%20Dorei%20Majutsu.html" class="md-nav__link">
+        Isekai Maou to Shoukan Shoujo no Dorei Majutsu
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Isekai%20Quartet.html" class="md-nav__link">
+        Isekai Quartet
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Ishuzoku%20Reviewers.html" class="md-nav__link">
+        Ishuzoku Reviewers
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Jujutsu%20Kaisen%200.html" class="md-nav__link">
+        Jujutsu Kaisen 0
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Kaifuku%20Jutsushi%20no%20Yarinaoshi.html" class="md-nav__link">
+        Kaifuku Jutsushi no Yarinaoshi
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Kakegurui.html" class="md-nav__link">
+        Kakegurui
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Kamisama%20ni%20Natta%20Hi.html" class="md-nav__link">
+        Kamisama ni Natta Hi
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Kanojo%20Okarishimasu.html" class="md-nav__link">
+        Kanojo, Okarishimasu
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Kimetsu%20no%20Yaiba.html" class="md-nav__link">
+        Kimetsu no Yaiba
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Kimi%20to%20Boku%20no%20Saigo%20no%20Senjou%20Aruiwa%20Sekai%20ga%20Hajimaru%20Seisen.html" class="md-nav__link">
+        Kimi to Boku no Saigo no Senjou, Aruiwa Sekai ga Hajimaru Seisen
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Kobayashi-san%20Chi%20no%20Maidragon%20S.html" class="md-nav__link">
+        Kobayashi-san Chi no Maidragon S
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Kono%20Subarashii%20Sekai%20ni%20Shukufuku%20wo.html" class="md-nav__link">
+        Kono Subarashii Sekai ni Shukufuku wo!
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Little%20Busters.html" class="md-nav__link">
+        Little Busters!
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Maou%20Gakuin%20no%20Futekigousha.html" class="md-nav__link">
+        Maou Gakuin no Futekigousha
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Meikyuu%20Black%20Company.html" class="md-nav__link">
+        Meikyuu Black Company
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Munou%20na%20Nana.html" class="md-nav__link">
+        Munou na Nana
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Neon%20Genesis%20Evangelion.html" class="md-nav__link">
+        Neon Genesis Evangelion
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Nichijou.html" class="md-nav__link">
+        Nichijou
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/One%20Punch%20Man.html" class="md-nav__link">
+        One Punch Man
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Princess%20Connect%20Re-Dive.html" class="md-nav__link">
+        Princess Connect Re Dive
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/ReLIFE.html" class="md-nav__link">
+        ReLIFE
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Rokudenashi%20Majutsu%20Koushi%20to%20Akashic%20Records.html" class="md-nav__link">
+        Rokudenashi Majutsu Koushi to Akashic Records
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Seishun%20Buta%20Yarou%20wa%20Bunny%20Girl%20Senpai%20no%20Yume%20wo%20Minai.html" class="md-nav__link">
+        Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Sentouin%20Hakenshimasu.html" class="md-nav__link">
+        Sentouin Hakenshimasu
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Shimoneta%20to%20Iu%20Gainen%20ga%20Sonzai%20Shinai%20Taikutsu%20na%20Sekai.html" class="md-nav__link">
+        Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Shinchou%20Yuusha%20Kono%20Yuusha%20ga%20Ore%20TUEEE%20Kuse%20ni%20Shinchou%20Sugiru.html" class="md-nav__link">
+        Shinchou Yuusha Kono Yuusha ga Ore TUEEE Kuse ni Shinchou Sugiru
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Shingeki%20no%20Bahamut%20GENESIS.html" class="md-nav__link">
+        Shingeki no Bahamut GENESIS
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Shuumatsu%20Nani%20Shitemasu%20ka%20Isogashii%20desu%20ka%20Sukutte%20Moratte%20Ii%20desu%20ka.html" class="md-nav__link">
+        Shuumatsu Nani Shitemasu ka? Isogashii desu ka? Sukutte Moratte Ii desu ka?
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Tate%20no%20Yuusha%20no%20Nariagari%20Season%202.html" class="md-nav__link">
+        Tate no Yuusha no Nariagari Season 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Tate%20no%20Yuusha%20no%20Nariagari.html" class="md-nav__link">
+        Tate no Yuusha no Nariagari
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Tonikaku%20Kawaii.html" class="md-nav__link">
+        Tonikaku Kawaii
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Trinity%20Seven.html" class="md-nav__link">
+        Trinity Seven
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Vivy%20Fluorite%20Eyes%20Song.html" class="md-nav__link">
+        Vivy: Fluorite Eye’s Song
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Yesterday%20wo%20Utatte%20Extras.html" class="md-nav__link">
+        Yesterday wo Utatte Extras
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Yesterday%20wo%20Utatte.html" class="md-nav__link">
+        Yesterday wo Utatte
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Youkoso%20Jitsuryoku%20Shijou%20Shugi%20no%20Kyoushitsu%20e.html" class="md-nav__link">
+        Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Zombie%20Land%20Saga%20Revenge.html" class="md-nav__link">
+        Zombie Land Saga Revenge
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Zombie%20Land%20Saga.html" class="md-nav__link">
+        Zombie Land Saga
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+          Tutoriais
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Tutoriais
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Windows
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="windows.html" class="md-nav__link md-nav__link--active">
+        Windows
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tools" class="md-nav__link">
+    Tools
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#midia-de-instalacao" class="md-nav__link">
+    Mídia de instalação
+  </a>
+  
+    <nav class="md-nav" aria-label="Mídia de instalação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#instale-o-ventoy-na-unidade-usb" class="md-nav__link">
+    Instale o Ventoy na unidade USB
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copiar-arquivos-de-imagem" class="md-nav__link">
+    Copiar arquivos de imagem
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#windows-10-enterprise-ltsc-a-melhor-versao-do-windows-10-de-todos-os-tempos" class="md-nav__link">
+    Windows 10 Enterprise LTSC (A melhor versão do Windows 10 de todos os tempos!)
+  </a>
+  
+    <nav class="md-nav" aria-label="Windows 10 Enterprise LTSC (A melhor versão do Windows 10 de todos os tempos!)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-o-que-e-windows-10-bloatware" class="md-nav__link">
+    1. O que é Windows 10 Bloatware?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-por-que-nao-usar-apenas-um-debloater-em-uma-iso-padrao-do-windows-10" class="md-nav__link">
+    2. Por que não usar apenas um Debloater em uma ISO padrão do Windows 10?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-o-que-e-windows-10-enterprise-ltsc" class="md-nav__link">
+    3. O que é Windows 10 Enterprise LTSC?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    FAQ​
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ativando-o-windows-10-enterprise-ltsc" class="md-nav__link">
+    Ativando o Windows 10 Enterprise LTSC
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          Utilidades
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Utilidades
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../utilidades/index.html" class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../utilidades/IA.html" class="md-nav__link">
+        AI
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../utilidades/Privacy%20Respecting.html" class="md-nav__link">
+        Privacy Respecting
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tools" class="md-nav__link">
+    Tools
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#midia-de-instalacao" class="md-nav__link">
+    Mídia de instalação
+  </a>
+  
+    <nav class="md-nav" aria-label="Mídia de instalação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#instale-o-ventoy-na-unidade-usb" class="md-nav__link">
+    Instale o Ventoy na unidade USB
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copiar-arquivos-de-imagem" class="md-nav__link">
+    Copiar arquivos de imagem
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#windows-10-enterprise-ltsc-a-melhor-versao-do-windows-10-de-todos-os-tempos" class="md-nav__link">
+    Windows 10 Enterprise LTSC (A melhor versão do Windows 10 de todos os tempos!)
+  </a>
+  
+    <nav class="md-nav" aria-label="Windows 10 Enterprise LTSC (A melhor versão do Windows 10 de todos os tempos!)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-o-que-e-windows-10-bloatware" class="md-nav__link">
+    1. O que é Windows 10 Bloatware?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-por-que-nao-usar-apenas-um-debloater-em-uma-iso-padrao-do-windows-10" class="md-nav__link">
+    2. Por que não usar apenas um Debloater em uma ISO padrão do Windows 10?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-o-que-e-windows-10-enterprise-ltsc" class="md-nav__link">
+    3. O que é Windows 10 Enterprise LTSC?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    FAQ​
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ativando-o-windows-10-enterprise-ltsc" class="md-nav__link">
+    Ativando o Windows 10 Enterprise LTSC
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="windows">Windows</h1>
+<h2 id="tools">Tools</h2>
+<ul>
+<li><a href="https://massgrave.dev">Microsoft Activation Scripts (MAS)</a></li>
+<li>
+<p><a href="https://github.com/massgravel/Microsoft-Activation-Scripts/releases">MAS (Releases)</a></p>
+<p>Um ativador do Windows e do Office usando métodos de ativação HWID / KMS38 / KMS online, com foco em código-fonte aberto e menos detecções de antivírus.</p>
+</li>
+</ul>
+<hr />
+<ul>
+<li><a href="https://opendirectory.luzea.de/luzea/Windows_10_Enterprise_LTSC_2021/">ISO: Windows 10 Enterprise LTSC 2021</a></li>
+</ul>
+<hr />
+<ul>
+<li>
+<p><a href="https://otp.landian.vip/en-us">Office Tool Plus</a></p>
+<p>Office Tool Plus baseado na Office Deployment Tool (ODT), você pode implantar o Office com muita facilidade.</p>
+</li>
+</ul>
+<hr />
+<ul>
+<li>
+<p><a href="https://www.ventoy.net/en/index.html">Ventoy</a></p>
+<p>Ventoy é uma ferramenta de código aberto para criar uma unidade USB inicializável para arquivos ISO/WIM/IMG/VHD(x)/EFI.</p>
+<p>Com o ventoy, você não precisa formatar o disco repetidamente, basta copiar os arquivos ISO/WIM/IMG/VHD(x)/EFI para a unidade USB e inicializá-los diretamente.</p>
+</li>
+</ul>
+<h2 id="midia-de-instalacao">Mídia de instalação</h2>
+<h3 id="instale-o-ventoy-na-unidade-usb">Instale o Ventoy na unidade USB</h3>
+<p>Baixe o pacote de instalação, como ventoy-x.x.xx-windows.zip e descompacte-o. Execute Ventoy2Disk.exe , selecione o dispositivo e clique no botão Instalar ou Atualizar.</p>
+<div class="admonition danger">
+<p class="admonition-title">Atenção</p>
+<p>Drive USB será formatado e todos os dados serão perdidos após a instalação.</p>
+</div>
+<p><img align="left," alt="ventoy2disk" src="_resources/ventoy2disk_en.png" width="350" />
+<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l73.4 73.4H32c-17.7 0-32 14.3-32 32s14.3 32 32 32h370.7l-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"/></svg></span>
+<img align="right," alt="ventoy2disk2" src="_resources/ventoy2disk2_en.png" width="350" /></p>
+<h3 id="copiar-arquivos-de-imagem">Copiar arquivos de imagem</h3>
+<p>Após a conclusão da instalação, a unidade USB será dividida em 2 partições. A 1ª partição foi formatada com o sistema de arquivos exFAT (você também pode reformatá-la manualmente com NTFS/FAT32/UDF/XFS/Ext2/3/4... Ver <a href="https://www.ventoy.net/en/doc_disk_layout.html">Notas</a>). </p>
+<p><strong>Você só precisa copiar os arquivos ISO para esta partição.</strong> Você pode colocar os arquivos iso/wim/img/vhd(x) em qualquer lugar. O Ventoy pesquisará todos os diretórios e subdiretórios recursivamente para encontrar todos os arquivos de imagem e listá-los no menu de inicialização em ordem alfabética. Além disso, você usa a configuração do plug-in para informar ao Ventoy apenas para procurar arquivos de imagem em um diretório fixo (e seus subdiretórios).</p>
+<div class="admonition info">
+<p class="admonition-title">Secure Boot</p>
+<p><a href="https://www.ventoy.net/en/doc_secure.html">Secure Boot no modo UEFI</a></p>
+</div>
+<h2 id="windows-10-enterprise-ltsc-a-melhor-versao-do-windows-10-de-todos-os-tempos">Windows 10 Enterprise LTSC (A melhor versão do Windows 10 de todos os tempos!)</h2>
+<p><img alt="" src="_resources/_2b07b6aae6c945e0b3af8c071bd60439.png" /></p>
+<h3 id="1-o-que-e-windows-10-bloatware">1. O que é Windows 10 Bloatware?</h3>
+<p>Os PCs Windows iniciam mais devagar do que deveriam, entupidos com software pré-carregado desnecessário conhecido como bloatware. Programas como Candy Crush Soda Saga, Groove Music, Filmes &amp; TV etc. são pré-instalados. Estes aplicativos rodam em segundo plano e reduzem a velocidade dos computadores e degradam muito o desempenho sem que os usuários o saibam. Mesmo que você dê uma olhada em seu menu inicial no Windows 10, você notará um monte de aplicativos que são uma porcaria completa e nunca os usa.</p>
+<p><img alt="" src="_resources/_59f1c2d9662e4baca6d5716d3c043733.png" /></p>
+<h3 id="2-por-que-nao-usar-apenas-um-debloater-em-uma-iso-padrao-do-windows-10">2. Por que não usar apenas um Debloater em uma ISO padrão do Windows 10?</h3>
+<p><strong>Mesmo que você tenha usado um Debloater no seu Windows 10, a Microsoft irá reinstalar uma ou outra porcaria com um patch de segurança ou forçar a instalação de atualizações em segundo plano ou, por algum motivo, a atualização do Windows quebrará seu PC e se tornará inutilizável.</strong></p>
+<h3 id="3-o-que-e-windows-10-enterprise-ltsc">3. O que é <a href="https://learn.microsoft.com/en-us/windows/whats-new/ltsc/whats-new-windows-10-2021"><strong>Windows 10 Enterprise LTSC</strong></a>?</h3>
+<p>O Long-Term Servicing Channel (LTSC) foi projetado para dispositivos Windows 10 e casos de uso em que o principal requisito é que a funcionalidade e os recursos não mudem com o tempo. <strong>Em palavras simples, as principais atualizações de recursos não serão atualizadas nesta versão do Windows, portanto, basicamente, o Windows não será interrompido dessa maneira. Já que todo o bloatware foi removido e ficou muito mais leve, por que não tentar pelo menos uma vez! O pior é que a Microsoft não divulgou muito sobre essa versão do Windows já que não quer que as pessoas usem e agora até se arrependem de tê-la feito 🤡.</strong></p>
+<h3 id="faq"><strong>FAQ</strong>​</h3>
+<details class="question">
+<summary>Por que usar?</summary>
+<ul>
+<li>Nenhum aplicativo pré-instalado (Candy Crush Saga, Onenote para Windows 10, música Groove, etc.)</li>
+<li>Nenhuma atualização forçada</li>
+<li>Sem <strong>CORTANA</strong> <a href="https://sensorstechforum.com/cortana-data-collection/"><strong>(LEIA SOBRE)</strong></a>, Windows Store, etc.</li>
+<li>Desempenho extra e mais estabilidade.</li>
+<li>Não haverá anúncios estranhos no menu Iniciar e os aplicativos da Microsoft não serão instalados automaticamente.</li>
+<li>Os aplicativos em segundo plano não serão mais executados, pois todos os aplicativos pré-instalados foram removidos.</li>
+<li>O ISO é de apenas 4,5 GB em comparação com o ISO padrão do Windows 10, que tem cerca de 6 GB. (É maior que o Windows 10 LTSC 2019, pois o LTSC agora é 21H2 com novidades)</li>
+</ul>
+</details>
+<details class="question">
+<summary>Haverá problemas de compatibilidade e hardware?</summary>
+<p>O Windows 10 LTSC Enterprise 2021 agora é baseado no 21H2 que veio há alguns dias (portanto, a maioria dos sites está desatualizada, pois está falando do Windows 10 LTSC 1809). <strong>Como o Windows 10 LTSC Enterprise 2021 é baseado no 21H2, assim como a versão normal do Windows, provavelmente haverá problemas de compatibilidade com o hardware.</strong></p>
+</details>
+<details class="question">
+<summary>O Windows 10 LTSC está atualizado?</summary>
+<p>As atualizações de recursos são oferecidas em novas versões do LTSC a cada 2 a 3 anos, em vez de a cada 6 meses. Como o Windows 10 encerrará o suporte em 14 de outubro de 2025, haverá pelo menos uma atualização de recurso em 2023 ou 2024, portanto, estará quase atualizado como o Windows normal.</p>
+</details>
+<details class="question">
+<summary>Até quando o Windows 10 LTSC será compatível e quais são as diferenças entre IoT e não-IoT?</summary>
+<p>O LTSC vem em duas versões IoT e não IoT. Abaixo estão as diferenças escritas:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th><strong>não-IoT</strong></th>
+<th><strong>IoT</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Data final do ciclo de vida</strong></td>
+<td>Jan 12, 2027</td>
+<td>Jan 13, 2032</td>
+</tr>
+<tr>
+<td><strong>Tipo de chave genérica</strong></td>
+<td>KMS</td>
+<td>RTM</td>
+</tr>
+<tr>
+<td><strong>¹Chave genérica incorporada no arquivo ISO</strong></td>
+<td><code>M7XTQ-FN8P6-TTKYV-9D4CC-J462D</code></td>
+<td><code>QPM6N-7J2WJ-P88HH-P3YRH-YY74H</code></td>
+</tr>
+<tr>
+<td><strong>Método de ativação</strong></td>
+<td>KMS</td>
+<td>Digital License (HWID)</td>
+</tr>
+<tr>
+<td><strong>Idiomas disponíveis para arquivos ISO</strong></td>
+<td>Todos os idiomas nativos disponíveis.</td>
+<td>Somente <code>en-us</code> "Inglês (Estados Unidos)" está disponível.</td>
+</tr>
+</tbody>
+</table>
+<p><a href="https://learn.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys">¹Chave genérica</a></p>
+</details>
+<details class="question">
+<summary>Devo optar por IoT ou não-IoT?</summary>
+<p>As diferenças acima são bastante inúteis, pois o não-IoT pode ser convertido em IoT com a ajuda do <a href="https://github.com/massgravel/Microsoft-Activation-Scripts/releases">MAS</a>, que é usado para ativar o Windows. <strong>Portanto, você ainda terá suporte de fim de vida até 2032 e ativação HWID.</strong></p>
+</details>
+<details class="question">
+<summary>Preciso da Microsoft Store?</summary>
+<p>A instalação da loja meio que destrói o objetivo do LTSC, eu acho? Mas muitos laptops para jogos precisam de software como o Lenovo Vantage, o Asus Armory Crate requer UWP. Além disso, como a NVIDIA parou de oferecer suporte a drivers não UWP legados que não precisavam da loja da Microsoft, significa que não há mais atualizações forçando você a usar drivers nvidia UWP infelizmente :(</p>
+<p><strong>Para instalar a loja, abra o CMD como administrador e digite o seguinte código:</strong>
+<div class="highlight"><pre><span></span><code>WSReset -i&amp;&amp;TimeOut 20&amp;&amp;WSReset -i&amp;&amp;exit
+</code></pre></div></p>
+</details>
+<h3 id="ativando-o-windows-10-enterprise-ltsc"><strong>Ativando o Windows 10 Enterprise LTSC</strong></h3>
+<p>Como comprar uma chave legítima do Windows 10 LTSC é muito caro, usaremos um ativador do Windows 10 para ativar o Windows 10 LTSC gratuitamente!</p>
+<div class="admonition info">
+<p class="admonition-title"><strong>Método 1 - PowerShell</strong></p>
+<ul>
+<li>No Windows 10/11, clique com o botão direito do mouse no menu Iniciar do Windows, selecione PowerShell ou Terminal</li>
+<li>Copie e cole o código abaixo e pressione enter 
+ <div class="highlight"><pre><span></span><code>irm https://massgrave.dev/get | iex
+</code></pre></div></li>
+<li>Você verá as opções de ativação, siga as instruções na tela</li>
+<li>Isso é tudo</li>
+</ul>
+</div>
+<div class="admonition info">
+<p class="admonition-title"><strong>Método 2 - Tradicional</strong></p>
+<ul>
+<li>Baixe o arquivo <code>MAS_1.7_Password_1234.7z</code> daqui: <a href="https://github.com/massgravel/Microsoft-Activation-Scripts/releases">MAS (Releases)</a></li>
+<li>Extraia este arquivo com um gerenciador de arquivos de terceiros, como o <a href="https://www.7-zip.org/download.html">7zip</a></li>
+<li>A senha é 1234</li>
+<li>Na pasta extraída, encontre a pasta chamada <strong>All-In-One-Version</strong></li>
+<li>Execute o arquivo chamado <strong>MAS_AIO.cmd</strong></li>
+<li>Você verá as opções de ativação, siga as instruções na tela</li>
+<li>Isso é tudo</li>
+</ul>
+</div>
+<p>Para ativar o Windows com o ativador:</p>
+<p><img alt="" src="_resources/_bc60131a755d440caefb82237f39f6de.png" />
+<img alt="" src="_resources/_1bed38d4286b484bbd6e342faf36fcbb.png" /></p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2023 Sekkon
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "content.code.copy"], "search": "../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.fc8c2696.min.js"></script>
+      
+    
+  </body>
+</html>

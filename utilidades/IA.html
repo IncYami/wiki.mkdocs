@@ -1,0 +1,2433 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Wiki">
+      
+      
+        <meta name="author" content="Sekkon">
+      
+      
+        <link rel="canonical" href="https://wiki.yami-s.com/utilidades/IA.html">
+      
+      
+        <link rel="prev" href="Genshin%20Impact.html">
+      
+      
+        <link rel="next" href="Privacy%20Respecting.html">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.12">
+    
+    
+      
+        <title>AI - Archiving Wiki (Beta)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.7e359304.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+        <script src="https://unpkg.com/iframe-worker/shim"></script>
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#ai" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../index.html" title="Archiving Wiki (Beta)" class="md-header__button md-logo" aria-label="Archiving Wiki (Beta)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Archiving Wiki (Beta)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              AI
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../index.html" class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../animes/index.html" class="md-tabs__link">
+          
+  
+  Animes
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../guias/index.html" class="md-tabs__link">
+          
+  
+  Guias
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tempest/index.html" class="md-tabs__link">
+          
+  
+  Tempest
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tutoriais/index.html" class="md-tabs__link">
+          
+  
+  Tutoriais
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="index.html" class="md-tabs__link">
+          
+  
+  Utilidades
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../index.html" title="Archiving Wiki (Beta)" class="md-nav__button md-logo" aria-label="Archiving Wiki (Beta)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Archiving Wiki (Beta)
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Animes
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Animes
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../animes/index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Guias
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Guias
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guias/index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guias/audios.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Relação de Áudios Disponiveis nos Streamings
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guias/qualidade.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Qualidade
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guias/video.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Video players
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Tempest
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Tempest
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introdução
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Index
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            Index
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/86%20Eighty%20Six.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    86: Eighty Six
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Akame%20ga%20Kill.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Akame ga Kill!
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Akudama%20Drive.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Akudama Drive
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Arknights%20Reimei%20Zensou.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Arknights: Reimei Zensou
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/B%20The%20Beginning.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    B: The Beginning
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Boku%20dake%20ga%20Inai%20Machi.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Boku dake ga Inai Machi
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Bokutachi%20wa%20Benkyou%20ga%20Dekina.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bokutachi wa Benkyou ga Dekinai
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Charlotte%20Tsuyoimono-tachi.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Charlotte: Tsuyoimono-tachi
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Charlotte.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Charlotte
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Cross%20Ange%20Tenshi%20to%20Ryuu%20no%20Rondo.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cross Ange: Tenshi to Ryuu no Rondo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/DARLING%20in%20the%20FRANXX.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DARLING in the FRANXX
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Dr.%20STONE.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dr. STONE
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Dungeon%20ni%20Deai%20wo%20Motomeru%20no%20wa%20Machigatteiru%20Darou%20ka.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Elfen%20Lied.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Elfen Lied
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Fantasy%20Bishoujo%20Juniku%20Ojisan%20to.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fantasy Bishoujo Juniku Oji-san to
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Fate%20Zero.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fate/Zero
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Fate%20stay%20night%20Heavens%20Feel%20I.%20presage%20flower.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fate/stay night [Heaven's Feel] I. presage flower
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Fate%20stay%20night%20Heavens%20Feel%20II.%20lost%20butterfly.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fate/stay night [Heaven's Feel] II. lost butterfly
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Fate%20stay%20night%20Heavens%20Feel%20III.%20spring%20song.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fate/stay night [Heaven's Feel] III. spring song
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/GUILTY%20CROWN.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GUILTY CROWN
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Gakusen%20Toshi%20Asterisk.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gakusen Toshi Asterisk
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Gamers.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gamers!
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Go-toubun%20no%20Hanayome.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Go-toubun no Hanayome
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Grancrest%20Senki.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Grancrest Senki
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Haiyore%20Nyaruko-san.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Haiyore Nyaruko san
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Happy%20Sugar%20Life.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Happy Sugar Life
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Heion%20Sedai%20no%20Idaten-tachi.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Heion Sedai no Idaten tachi
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Hige%20wo%20Soru.%20Soshite%20Joshikousei%20wo%20Hirou.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Hige wo Soru. Soshite Joshikousei wo Hirou.
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Hundred.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Hundred
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Isekai%20Maou%20to%20Shoukan%20Shoujo%20no%20Dorei%20Majutsu.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Isekai Maou to Shoukan Shoujo no Dorei Majutsu
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Isekai%20Quartet.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Isekai Quartet
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Ishuzoku%20Reviewers.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ishuzoku Reviewers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Jujutsu%20Kaisen%200.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Jujutsu Kaisen 0
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Kaifuku%20Jutsushi%20no%20Yarinaoshi.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kaifuku Jutsushi no Yarinaoshi
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Kakegurui.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kakegurui
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Kamisama%20ni%20Natta%20Hi.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kamisama ni Natta Hi
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Kanojo%20Okarishimasu.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kanojo, Okarishimasu
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Kimetsu%20no%20Yaiba.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kimetsu no Yaiba
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Kimi%20to%20Boku%20no%20Saigo%20no%20Senjou%20Aruiwa%20Sekai%20ga%20Hajimaru%20Seisen.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kimi to Boku no Saigo no Senjou, Aruiwa Sekai ga Hajimaru Seisen
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Kobayashi-san%20Chi%20no%20Maidragon%20S.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kobayashi-san Chi no Maidragon S
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Kono%20Subarashii%20Sekai%20ni%20Shukufuku%20wo.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kono Subarashii Sekai ni Shukufuku wo!
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Little%20Busters.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Little Busters!
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Maou%20Gakuin%20no%20Futekigousha.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Maou Gakuin no Futekigousha
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Meikyuu%20Black%20Company.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Meikyuu Black Company
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Munou%20na%20Nana.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Munou na Nana
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Neon%20Genesis%20Evangelion.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Neon Genesis Evangelion
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Nichijou.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Nichijou
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/One%20Punch%20Man.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    One Punch Man
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Princess%20Connect%20Re-Dive.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Princess Connect Re Dive
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/ReLIFE.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ReLIFE
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Rokudenashi%20Majutsu%20Koushi%20to%20Akashic%20Records.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Rokudenashi Majutsu Koushi to Akashic Records
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Seishun%20Buta%20Yarou%20wa%20Bunny%20Girl%20Senpai%20no%20Yume%20wo%20Minai.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Sentouin%20Hakenshimasu.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sentouin Hakenshimasu
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Shimoneta%20to%20Iu%20Gainen%20ga%20Sonzai%20Shinai%20Taikutsu%20na%20Sekai.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Shinchou%20Yuusha%20Kono%20Yuusha%20ga%20Ore%20TUEEE%20Kuse%20ni%20Shinchou%20Sugiru.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Shinchou Yuusha Kono Yuusha ga Ore TUEEE Kuse ni Shinchou Sugiru
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Shingeki%20no%20Bahamut%20GENESIS.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Shingeki no Bahamut GENESIS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Shuumatsu%20Nani%20Shitemasu%20ka%20Isogashii%20desu%20ka%20Sukutte%20Moratte%20Ii%20desu%20ka.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Shuumatsu Nani Shitemasu ka? Isogashii desu ka? Sukutte Moratte Ii desu ka?
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Tate%20no%20Yuusha%20no%20Nariagari%20Season%202.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tate no Yuusha no Nariagari Season 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Tate%20no%20Yuusha%20no%20Nariagari.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tate no Yuusha no Nariagari
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Tonikaku%20Kawaii.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tonikaku Kawaii
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Trinity%20Seven.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Trinity Seven
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Vivy%20Fluorite%20Eyes%20Song.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Vivy: Fluorite Eye’s Song
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Yesterday%20wo%20Utatte%20Extras.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Yesterday wo Utatte Extras
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Yesterday%20wo%20Utatte.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Yesterday wo Utatte
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Youkoso%20Jitsuryoku%20Shijou%20Shugi%20no%20Kyoushitsu%20e.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Zombie%20Land%20Saga%20Revenge.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Zombie Land Saga Revenge
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tempest/Index/Zombie%20Land%20Saga.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Zombie Land Saga
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Tutoriais
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Tutoriais
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tutoriais/index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tutoriais/Windows%2010%20Enterprise%20LTSC.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Windows
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Utilidades
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Utilidades
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Awesome%20Hacking.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Awesome Hacking
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Genshin%20Impact.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Genshin Impact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="IA.html" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    AI
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Privacy%20Respecting.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Privacy Respecting
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="ai">AI</h1>
+<ul>
+<li>
+<p><a href="https://chat.openai.com/">ChatGPT OpenAI</a></p>
+<p>O ChatGPT é um chatbot de inteligência artificial desenvolvido pela OpenAI e lançado em novembro de 2022. Ele é construído sobre a família GPT-3 de modelos de linguagem grandes da OpenAI e foi ajustado usando técnicas de aprendizado supervisionado e por reforço.</p>
+</li>
+</ul>
+<hr />
+<ul>
+<li>
+<p><a href="https://beta.character.ai/">Character.AI</a></p>
+<p>Character.AI está dando vida ao sonho de ficção científica de conversas abertas e colaborações com computadores.</p>
+</li>
+</ul>
+<hr />
+<ul>
+<li>
+<p><a href="https://www.midjourney.com/">Midjourney</a></p>
+<p>Midjourney é um laboratório de pesquisa independente que explora novos meios de pensamento e expande os poderes imaginativos da espécie humana.</p>
+</li>
+</ul>
+<hr />
+<ul>
+<li>
+<p><a href="https://leonardo.ai/">Leonardo.Ai</a></p>
+<p>Crie recursos de jogos impressionantes com IA.</p>
+</li>
+</ul>
+<hr />
+<ul>
+<li>
+<p><a href="https://labs.openai.com/">DALL·E</a></p>
+<p>DALL-E e DALL-E 2 são Deep Learning Models desenvolvidos pela OpenAI para gerar imagens digitais a partir de descrições em linguagem natural, chamadas de "prompts".</p>
+</li>
+</ul>
+<hr />
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2023 Sekkon
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "content.code.copy"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.c8d2eff1.min.js"></script>
+      
+    
+  </body>
+</html>

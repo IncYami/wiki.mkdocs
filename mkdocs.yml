@@ -43,6 +43,7 @@ plugins:
 #  - offline
   - search
   - table-reader
+  - privacy
 
 nav:
   - Home: index.md

@@ -48,6 +48,9 @@ plugins:
 nav:
   - Home: index.md
   - Sistema:
+    - Drivers:
+      - Chipset: Sistema/Drivers/Chipset.md
+      - NVIDIA: Sistema/Drivers/NVIDIA.md
     - MAS: Sistema/MAS.md
     - Office: Sistema/Office.md
     - Ventoy: Sistema/Ventoy.md

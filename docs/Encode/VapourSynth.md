@@ -5,12 +5,10 @@
 
 ## **Instalação**
 
-
-
 **Baixe os seguintes programas e siga as etapas para instalação e configuração**
 !!! abstract ""
-    ### [:fontawesome-brands-python: __Python__](https://www.python.org/ftp/python/3.12.8/python-3.12.8-amd64.exe)
-    ![Python Version](https://img.shields.io/badge/python-3.12.18-blue?style=flat-square)
+    ### [:fontawesome-brands-python: __Python__](https://www.python.org/ftp/python/3.12.9/python-3.12.9-amd64.exe)
+    ![Python Version](https://img.shields.io/badge/python-3.12.9-blue?style=flat-square)
     ***
 
 !!! abstract ""
@@ -18,7 +16,6 @@
     ![GitHub release (latest by date)](https://img.shields.io/github/v/release/vapoursynth/vapoursynth?color=%233fb950&style=flat-square)
     ***
     Baixe o arquivo ` VapourSynth-x64-RXX.exe ` da versão mais recente com a tag Latest
-
 
 !!! abstract ""
     ### [:fontawesome-solid-code: __VS Code (System Installer)__](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64)
